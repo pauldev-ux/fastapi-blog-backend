@@ -56,3 +56,4 @@ htmlcov/
 # Docker (si llegas a usarlo)
 *.pid
 docker-compose.override.yml
+alembic.ini
