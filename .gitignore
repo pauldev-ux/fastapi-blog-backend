@@ -1,0 +1,58 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos de dependencias
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Archivos de configuración locales
+*.env
+.env.*
+
+# Archivos de bases de datos locales o SQLite
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales y cachés
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.orig
+*.DS_Store
+Thumbs.db
+
+# Alembic (migraciones compiladas)
+alembic/versions/*.pyc
+alembic/__pycache__/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.tox/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.iml
+
+# Docker (si llegas a usarlo)
+*.pid
+docker-compose.override.yml
